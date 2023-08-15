@@ -1,0 +1,56 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package frequentlyaskedquestions;
+
+import java.util.List;
+
+/**
+ *
+ * @author lenovo
+ */
+public class question {
+    
+ private String question;
+    private String answer;
+//    question(String q1, String string) {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
+//
+//    question(List<question> question, String answer) {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
+//
+//    question() {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
+//public class question {
+//    private String question;
+//    private String answer;
+
+    public question(String question, String answer) {
+        this.question = question;
+        this.answer = answer;
+    }
+
+    question(List<question> question, String answer) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public String getAnswer() {
+        return answer;
+    }
+
+        @Override
+        public String toString() {
+            return "Question{" + "question=" + question + ", answer=" + answer + '}';
+        }
+    
+}
+
+
