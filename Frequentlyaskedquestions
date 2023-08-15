@@ -1,0 +1,45 @@
+package frequentlyaskedquestions;
+
+public class FrequentlyAskedQuestions {
+
+    public static void main(String[] args) {
+        String q1 = "Why do you want to attend this university?\n"
+                + "(1)I chose this college because of your highly rated [area of study program]. I've had a passion for this field for a long time and I'm excited to learn from that faculty that have built such a great program. I think my skills and learning style will be a great fit for the program.";
+
+        String q2 = "why do you want to study this subject answer?\n"
+                + "(2)Personal development is a crucial aspect of pursuing higher education. For me, it is one of the primary reasons why I want to study. I firmly believe that obtaining a college education will provide me with the opportunity to expand my knowledge, learn new skills, and challenge myself intellectually";
+
+        String q3 = "What are you reading at the moment?\n"
+                + "(3)Currently I am reading 'Ego is the Enemy' by Ryan Holiday. It is a book about ambition, resilience and success. I feel that every professional should read it - it comes highly recommended.";
+
+        String q4 = "How would your friends describe you?\n"
+                + "(4)My friends would describe me as [insert a description such as helpful and empathetic]. Whenever something goes wrong, I'm always the first to volunteer to help and always take time to understand the problem and figure out how we can solve it together.";
+
+        String q5 = " What achievement are you most proud of?\n"
+                + "(5)My greatest professional achievement was completing my Bachelor's degree with a high GPA. Having no financial support from my family, I had to work a full-time job while pursuing my university degree.";
+
+        String q6 = "What do you like to do in your spare time?\n"
+                + "(6)Sports are my greatest passion. When I have some free time, I take a bicycle and go for a ride, or hit the swimming pool and spend an hour in the water. I try to have a healthy lifestyle.";
+        String q7 = "What can you bring to the university?\n"
+                + "(7)I understand that being at university is an important part of my development, but that you too want students who are going to work hard, achieve and be a positive role model in the process.";
+        String q8 = "What is your greatest strength (and weakness)?\n"
+                + "(8)My strength is that I am a self-motivated, hardworking and adaptive person. I like to explore and update my skills every day. My weakness is that I can't sit patiently until I finish my work. And I am a little bit emotional person I easily get emotional on small things but I am making myself strong.";
+        question question1 = new question(q1, "(1)");
+        question question2 = new question(q2, "(2)");
+        question question3 = new question(q3, "(3)");
+        question question4 = new question(q4, "(4)");
+        question question5 = new question(q5, "(5)");
+        question question6 = new question(q6, "(6)");
+        question question7 = new question(q7, "(7)");
+        question question8 = new question(q8, "(8)");
+        question[] question = {question1,question2,question3,question4,question5,question6,question7,question8};
+            
+    System.out.print (question[1].toString());
+        }
+   
+    }
+    
+//public static void takeTest(Question [] question) {
+// int score = 0;
+//}
+//}
