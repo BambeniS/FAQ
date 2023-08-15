@@ -1,0 +1,25 @@
+
+package frequentlyaskedquestions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+
+public class manage {
+    
+     private List<question> question;
+
+    public manage() {
+        question = new ArrayList<>();
+    }
+
+    public void addQuestion(String Question, String answer) {
+        question faqItem = new question(question, answer);
+        question.add(faqItem);
+    }
+
+    public List<question> getQuestion() {
+        return question;
+    }
+}
